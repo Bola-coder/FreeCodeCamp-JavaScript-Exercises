@@ -7,7 +7,7 @@ function findLongestWordLength(str) {
     if(splitedStr[i].length > longest){
       longest = splitedStr[i].length;
     }
-  }
+  }	
   return longest;
 }
 
